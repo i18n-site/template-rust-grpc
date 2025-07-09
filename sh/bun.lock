@@ -1,0 +1,13 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "@3-/volo_regen": "^0.1.3",
+      },
+    },
+  },
+  "packages": {
+    "@3-/volo_regen": ["@3-/volo_regen@0.1.3", "", { "bin": { "volo_regen": "volo_regen.js" } }, "sha512-QtNQ6xqtkGkcjvPklMtDqAkpp6CzyV0l/hzGfF3xvaPlxVoMBwyJtE+Ql8iSr3jIgzIVU/E6AQCFlDbhKYVX9Q=="],
+  }
+}
