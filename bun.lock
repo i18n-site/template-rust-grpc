@@ -1,0 +1,17 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "@3-/volo_regen": "^0.1.8",
+      },
+    },
+  },
+  "packages": {
+    "@3-/read": ["@3-/read@0.1.4", "", {}, "sha512-PZDRfIFuaFNAW6VjWupa7+g/3GbhES6shAgETN/RXtTdJxcIwl9HSBMy2sdfRqAc/FUeUJFL3F8PfpsdZbC8xg=="],
+
+    "@3-/volo_regen": ["@3-/volo_regen@0.1.8", "", { "dependencies": { "@3-/read": "^0.1.4", "@3-/write": "^0.0.2" }, "bin": { "volo_regen": "volo_regen.js" } }, "sha512-CqZrTKhW1d7QoZuPh1thCHZ2QRI5XGhx663SYtXFU+UHm0KdSZgATRl60GDpTnATvZ4+Ke/K4tSfuVsB4DdEsg=="],
+
+    "@3-/write": ["@3-/write@0.0.2", "", {}, "sha512-eFLP3Vsh66Xhw4hYsiYUOBaH/Gciu1DNfWeJTN9MO/yNZB6cg1LvtnxNF9nwOoAzT4oaCLmT0jjFe5J96//Zew=="],
+  }
+}
